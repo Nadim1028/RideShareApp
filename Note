@@ -1,0 +1,33 @@
+To run flask:
+
+python -m flask run
+
+To run xampp
+
+sudo /opt/lampp/lampp start
+
+MYSQL COMMAND:(sudo mysql -u root)
+
+
+mysql -u root -p
+password: iit123
+
+show databases;
+
+drop database DBName;
+
+To enter into the database:
+use DBName;
+
+For showing the db tables in the DB:
+show tables;
+
+For dropping a table from the DB:
+drop table TableName;
+
+Showing a table for descending order:
+ desc TableName;
+
+For selecting all info:
+select * from TableName;
+

@@ -1,0 +1,58 @@
+python -m flask run
+
+pip3 install virtualenv
+
+virtualenv env
+
+source env/bin/activate
+
+pip3 install flask
+
+export FLASK_APP=server
+
+pip install flask-mysql-connector
+
+pip install Flask-SocketIO
+
+pip install Flask-APScheduler
+
+pip install requests
+
+
+
+
+
+ps -fA | grep python
+
+kill -9 pid  -->( fA is the pid)
+
+
+
+sudo netstat -ant | grep 3306
+sudo service mysql stop
+sudo /opt/lampp/lampp start
+/opt/lampp/bin/mysql -u root
+
+cd /opt/lampp   ---> To start the xampp UI 
+sudo ./manager-linux-x64.run
+
+
+export FLASK_APP=server
+flask run
+python -m flask run
+
+pip install eventlet
+pip install gevent
+
+
+
+
+
+
+
+
+
+
+
+
+
